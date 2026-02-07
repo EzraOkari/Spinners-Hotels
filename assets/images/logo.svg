@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" width="1300" height="500">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B08D2A"/>
+      <stop offset="50%" stop-color="#E6C45A"/>
+      <stop offset="100%" stop-color="#9C7A1F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(300,250)">
+    <!-- Cup rim -->
+    <circle
+      r="200"
+      fill="none"
+      stroke="url(#gold)"
+      stroke-width="12"/>
+
+    <!-- Coffee surface -->
+    <circle
+      r="160"
+      fill="none"
+      stroke="url(#gold)"
+      stroke-width="6"
+      opacity="0.6"/>
+
+    <!-- Cup handle -->
+    <path
+      d="M200 -80
+         C320 -80, 320 80, 200 80"
+      fill="none"
+      stroke="url(#gold)"
+      stroke-width="12"/>
+
+    <!-- SR Monogram -->
+    <text
+      x="-110"
+      y="80"
+      font-family="Segoe Script, Segoe UI Script, Brush Script MT, cursive"
+      font-size="360"
+      fill="url(#gold)">
+      S
+    </text>
+
+    <text
+      x="20"
+      y="72"
+      font-family="Segoe Script, Segoe UI Script, Brush Script MT, cursive"
+      font-size="360"
+      fill="url(#gold)">
+      H
+    </text>
+  </g>
+
+  <!-- Wordmark (stacked) -->
+  <text
+    x="650"
+    y="200"
+    font-family="Segoe Script, Segoe UI Script, Brush Script MT, cursive"
+    font-size="140"
+    fill="url(#gold)">
+    Spinners
+  </text>
+
+  <text
+    x="670"
+    y="340"
+    font-family="Segoe Script, Segoe UI Script, Brush Script MT, cursive"
+    font-size="140"
+    fill="url(#gold)">
+    Hotels
+  </text>
+</svg>
+
